@@ -1,0 +1,31 @@
+{
+  "siteTitle": "可信联邦学习",
+  "siteSubtitle": "配套资源与习题答案",
+  "purchaseLink": "",
+  "issuesLink": "",
+  "repoLink": "",
+  "lastUpdated": "2026-04-04",
+  "citation": {
+    "key": "yang2026tfl",
+    "title": "可信联邦学习",
+    "authors": "杨强 and 黄安埠 and 范力欣 and 刘洋 and 张晓今",
+    "publisher": "待补充（出版社）",
+    "year": "待补充（出版年份）",
+    "address": "待补充（出版地）",
+    "isbn": "待补充（ISBN）",
+    "url": "待补充（本书配套网站URL）"
+  },
+  "chapters": [
+    { "num": 2, "title": "联邦学习基础算法" },
+    { "num": 3, "title": "联邦大模型" },
+    { "num": 4, "title": "联邦学习安全性" },
+    { "num": 5, "title": "联邦学习效率" },
+    { "num": 6, "title": "无免费午餐定理" },
+    { "num": 7, "title": "联邦学习的多目标优化" },
+    { "num": 8, "title": "个性化联邦学习" },
+    { "num": 9, "title": "联邦学习公平性" },
+    { "num": 10, "title": "联邦学习贡献度与激励机制" },
+    { "num": 11, "title": "模型知识产权保护" },
+    { "num": 12, "title": "联邦学习应用" }
+  ]
+}
