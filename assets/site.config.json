@@ -2,8 +2,8 @@
   "siteTitle": "可信联邦学习",
   "siteSubtitle": "配套资源与习题答案",
   "purchaseLink": "",
-  "issuesLink": "",
-  "repoLink": "",
+  "issuesLink": "https://github.com/XiaoJinZhang-HUST/XiaoJinZhang-HUST.github.io/issues",
+  "repoLink": "https://github.com/XiaoJinZhang-HUST/XiaoJinZhang-HUST.github.io",
   "lastUpdated": "2026-04-04",
   "citation": {
     "key": "yang2026tfl",
