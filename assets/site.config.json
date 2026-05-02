@@ -9,11 +9,11 @@
     "key": "yang2026tfl",
     "title": "可信联邦学习",
     "authors": "杨强 and 黄安埠 and 范力欣 and 刘洋 and 张晓今",
-    "publisher": "待补充（出版社）",
-    "year": "待补充（出版年份）",
-    "address": "待补充（出版地）",
+    "publisher": "电子工业出版社",
+    "year": "2026",
+    "address": "中国",
     "isbn": "待补充（ISBN）",
-    "url": "待补充（本书配套网站URL）"
+    "url": "https://xiaojinzhang-hust.github.io/"
   },
   "chapters": [
     { "num": 2, "title": "联邦学习基础算法" },
