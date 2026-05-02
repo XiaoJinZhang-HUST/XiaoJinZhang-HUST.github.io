@@ -84,6 +84,8 @@
       <div class="container">
         <h2 class="section-title">📕 书籍封面</h2>
         <div style="margin-top: var(--space-lg);">
+          
+      
           <div class="cover-image-wrapper">
             <img src="./assets/cover.png"
                  alt="《可信联邦学习》封面"
@@ -91,10 +93,116 @@
                  loading="lazy">
           </div>
           <p class="text-sm text-muted" style="margin-top: var(--space-md);">点击图片可放大查看</p>
+
+      </div>
+        
         </div>
       </div>
     </section>
 
+
+<!-- Cover Section -->
+<section class="section cover-section" id="cover" style="background: var(--color-surface);">
+  <div class="container">
+    <h2 class="section-title">📕 书籍封面与详情</h2>
+    
+    <div style="margin-top: var(--space-lg);">
+      <!-- 第一组：主封面与立体图 (4张) -->
+      <div class="cover-grid-main">
+        <div class="cover-image-wrapper">
+          <img src="./assets/52477fm.jpg" alt="封面" data-zoomable loading="lazy">
+          <p class="image-caption">正面封面</p>
+        </div>
+        <div class="cover-image-wrapper">
+          <img src="./assets/52477fd.jpg" alt="封底" data-zoomable loading="lazy">
+          <p class="image-caption">封底详情</p>
+        </div>
+        <div class="cover-image-wrapper">
+          <img src="./assets/52477fm立体图.png" alt="立体图" data-zoomable loading="lazy">
+          <p class="image-caption">立体展示</p>
+        </div>
+        <div class="cover-image-wrapper">
+          <img src="./assets/52477fm立体图 (1).jpg" alt="立体图" data-zoomable loading="lazy">
+          <p class="image-caption">侧面展示</p>
+        </div>
+      </div>
+
+      <h3 style="margin: var(--space-xl) 0 var(--space-md); text-align: center; font-size: 1.25rem; color: var(--color-text);">📖 精彩内页</h3>
+
+      <!-- 第二组：13张轮转图 (网格排列) -->
+      <div class="cover-grid-slides">
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-01.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-02.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-03.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-04.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-05.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-06.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-07.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-08.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-09.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-10.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-11.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-12.jpg" data-zoomable loading="lazy"></div>
+        <div class="cover-image-wrapper"><img src="./assets/可信联邦学习-轮转图-13.jpg" data-zoomable loading="lazy"></div>
+      </div>
+
+      <p class="text-sm text-muted" style="margin-top: var(--space-lg); text-align: center;">点击图片可放大查看高清原图</p>
+    </div>
+  </div>
+</section>
+
+<!-- 补充样式：请确保这段 CSS 出现在你的 <style> 标签中 -->
+<style>
+  /* 主封面网格：大一点，电脑端一行4个 */
+  .cover-grid-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  /* 轮转图网格：稍微小一点，电脑端一行4-5个，手机端2个 */
+  .cover-grid-slides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  @media (min-width: 768px) {
+    .cover-grid-slides {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* 统一图片容器样式 */
+  .cover-image-wrapper {
+    background: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover-image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+
+  .cover-image-wrapper img:hover {
+    transform: scale(1.02);
+  }
+
+  .image-caption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+  }
+</style>
+    
     <!-- Purchase Section -->
     <section class="section" id="purchase">
       <div class="container">
