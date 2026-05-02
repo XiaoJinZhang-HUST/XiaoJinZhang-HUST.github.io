@@ -49,7 +49,7 @@
 
       <div class="page-header">
         <h1>📝 习题答案</h1>
-        <p>第 2 章至第 12 章习题答案 PDF 下载</p>
+        <p>第 2 章至第 11 章习题答案 PDF 下载</p>
       </div>
 
       <div class="note-box">
@@ -72,21 +72,30 @@
               <li>第9章 联邦学习公平性 — <a href="./assets/pdfs/ch09.pdf">ch09.pdf</a></li>
               <li>第10章 联邦学习贡献度与激励机制 — <a href="./assets/pdfs/ch10.pdf">ch10.pdf</a></li>
               <li>第11章 模型知识产权保护 — <a href="./assets/pdfs/ch11.pdf">ch11.pdf</a></li>
-              <li>第12章 联邦学习应用 — <a href="./assets/pdfs/ch12.pdf">ch12.pdf</a></li>
+              <!-- <li>第12章 联邦学习应用 — <a href="./assets/pdfs/ch12.pdf">ch12.pdf</a></li> -->
             </ul>
           </div>
         </noscript>
       </div>
 
-      <!-- Batch Download -->
-      <div style="margin-top: var(--space-2xl); padding: var(--space-xl); background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
-        <h3 style="margin-bottom: var(--space-md);">📦 批量下载</h3>
-        <p class="text-secondary text-sm" style="margin-bottom: var(--space-md);">
-          如需一次性下载所有已发布的习题答案，可在仓库 Releases 页面获取离线包。
-        </p>
-        <a class="btn btn-outline disabled" aria-disabled="true" title="功能即将上线">批量下载（zip）— 即将上线</a>
-      </div>
+
+    <!-- Batch Download -->
+    <div style="margin-top: var(--space-2xl); padding: var(--space-xl); background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+      <h3 style="margin-bottom: var(--space-md);">📦 批量下载</h3>
+      <p class="text-secondary text-sm" style="margin-bottom: var(--space-md);">
+        您可以一次性下载所有已发布的习题答案压缩包。
+      </p>
+      <!-- 修改点：移除了 disabled 类，添加了 href 和 download 属性 -->
+      <a 
+        href="./assets/solutions_all.zip" 
+        class="btn btn-primary" 
+        download="习题答案合集.zip"
+      >
+        立即下载（ZIP 格式）
+      </a>
     </div>
+        
+        
   </main>
 
   <!-- Footer -->
